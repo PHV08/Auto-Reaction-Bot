@@ -1,15 +1,18 @@
+import os
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
 
 # ====== CONFIG ======
-TOKEN = "bot_token" # it is adviced to use environmental variables (.env) to store your token for safety
-USER_IDS = [123456789012345678, 987654321098765432]  # IDs of users to react to
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN") or "bot_token" # it is adviced to use environmental variables (.env) to store your token for safety
+
+USER_IDS = {123456789012345678, 987654321098765432}  # IDs of users to react to
 EMOJI = "<:cool:123456789012345678>"  # Custom emoji
 # =====================
 
 intents = discord.Intents.default()
 intents.message_content = True
-intents.messages = True
 intents.guilds = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
