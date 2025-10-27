@@ -18,7 +18,7 @@ This bot has you covered.
 ---
 
 ### ⚙️ Features
-- 🧠 Automatically reacts to selected users’ messages  
+- 🧠 Automatically reacts to selected users’ messages
 - 💬 Supports **custom emojis** and normal Unicode emojis  
 - ⚡ Super lightweight — runs on a few lines of code  
 - 🧩 Easily customizable for your own needs.
@@ -26,6 +26,6 @@ This bot has you covered.
 
 ### Important Note
 
-If you are facing issues setting the bot you can Join our Discord server - [PHV COMMUNITY](https://discord.gg/5J6QdeQwnB).
-Also checkout my YouTube channel where I upload Videos about Discord Bots - [YouTube](https://youtube.com/@phvdev04?sub_confirmation=1)
+- If you are facing issues setting the bot you can Join our Discord server - [PHV COMMUNITY](https://discord.gg/5J6QdeQwnB).
+- Also checkout my YouTube channel where I upload Videos about Discord Bots - [YouTube](https://youtube.com/@phvdev04?sub_confirmation=1)
 
