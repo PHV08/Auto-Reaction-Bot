@@ -1,15 +1,18 @@
+import os
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
 
 
-TOKEN = "bot_token" 
-USER_IDS = [123456789012345678, 987654321098765432]  
-EMOJI = "<:cool:123456789012345678>" 
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN") or "bot_token"
+
+USER_IDS = {123456789012345678, 987654321098765432}  
+EMOJI = "<:cool:123456789012345678>"  
 
 
 intents = discord.Intents.default()
 intents.message_content = True
-intents.messages = True
 intents.guilds = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
